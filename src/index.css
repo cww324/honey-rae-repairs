@@ -14,11 +14,11 @@ font-family: "Roboto", sans-serif;
   --secondary: #00a6ed;
   --info: #7fb800;
   --warning: #f6511d;
-  --white: #ffffff;
-  --offWhite: #f2f2f3;
-  --dark: #3b3b3b;
-  --outline: #c3c0c0;
-  --appBackground: #dddade;
+  --appBackground: #4f4c96; /* nearly black */
+  --dark: #2c2c2c; /* update other dark accents too */
+  --white: #e0e0e0; /* slightly off-white for readability */
+  --offWhite: #bdbdbd;
+  --outline: #444; /* subtler borders */
 }
 
 /* GLOBAL STYLES */
@@ -106,8 +106,7 @@ button {
   text-align: center;
   margin: 5rem 14rem;
   font-size: 4rem;
-  color: aliceblue;
+  color: rgb(27, 121, 202);
   font-weight: bold;
   text-shadow: 2px 3px 4px lightslategray;
 }
-
