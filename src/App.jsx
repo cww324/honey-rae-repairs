@@ -1,3 +1,13 @@
+import "./App.css";
+import { TicketList } from "./components/tickets/TicketList";
+import { CustomerList } from "./components/customers/CustomerList";
+import { EmployeeList } from "./components/employees/EmployeeList";
 export const App = () => {
-  return <div className="welcome">Welcome to your first React Application!</div>
-}
+  return (
+    <>
+      {/* <TicketList. /> */}
+      <EmployeeList />
+      {/* <CustomerList /> */}
+    </>
+  );
+};
