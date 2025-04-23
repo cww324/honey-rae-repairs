@@ -1,4 +1,6 @@
 export const Employee = ({ employee }) => {
+  if (!employee) return null;
+
   return (
     <div className="employee">
       <div>

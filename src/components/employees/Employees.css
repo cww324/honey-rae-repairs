@@ -10,3 +10,76 @@
   flex-basis: 31%;
   margin: 0.5rem;
 }
+.employee {
+  background-color: var(--white);
+  border: 1px solid var(--outline);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+section.employee {
+  margin: 3rem;
+}
+
+.employee-info {
+  color: var(--info);
+  font-family: "Roboto", sans-serif;
+}
+
+.employee-footer {
+  margin: 1rem 0 0.25rem 0;
+  font-style: oblique;
+}
+
+.employee-header {
+  font-size: larger;
+  font-weight: 700;
+  line-height: 3rem;
+  color: var(--primary);
+}
+
+.employee {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.employee-header {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.employee-info {
+  display: inline-block;
+  font-weight: 600;
+  color: #444;
+  margin-right: 0.5rem;
+  min-width: 120px;
+}
+
+.employee div {
+  margin-bottom: 0.75rem;
+}
+
+.ticket-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 1.5rem;
+}
+
+.ticket-list li {
+  background-color: #f8f9fa;
+  border-left: 4px solid #4f46e5;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
